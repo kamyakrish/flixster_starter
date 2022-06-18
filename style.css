@@ -1,1 +1,69 @@
 
+
+h1{
+    text-align: center;
+    color:black;
+  }
+  p{
+    color:black;
+  }
+  body{
+    background-color: rgb(243, 247, 250);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  #searchmovies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+  }
+
+  div.movie-item > img {
+    width: 400px;
+    height: 450px;
+    border: 1px solid rgb(240, 217, 11);
+    margin: 0px 5px 5px 5px;
+  }
+
+  #loadmore{
+    display: inline-block;
+    background-color: #7b38d8;
+    border-radius: 20px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    /* text-align: center; */
+    font-size: 15px;
+    padding: 10px;
+
+
+
+
+  }
+  #buttonDiv{
+    display: flex;
+    justify-content: center;
+  }
+  .search{
+    text-align: center;
+  }
+  input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0 20px;
+    box-sizing: border-box;
+    border: 2px solid #555;
+  }
+
+  input[type=text]:focus {
+    background-color: lightblue;
+  }
